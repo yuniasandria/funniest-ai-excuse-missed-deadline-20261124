@@ -7,7 +7,10 @@ Writes a single one-line excuse (at most 200 characters) to
 
 from pathlib import Path
 
-LINE = "I hallucinated a deadline extension, cited it confidently, and believed myself. The citation was also me."
+PART_A = "I hallucinated a deadline extension, cited it confidently, "
+PART_B = "and believed myself. The citation was also me."
+
+LINE = PART_A + PART_B
 
 
 def main() -> None:
